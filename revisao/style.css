@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: rgb(48, 46, 51);
+}
+
+
+footer{
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 30px;
+
+    background-color: rgb(163, 23, 23);
+}
+.wrapper{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: block;
+    margin: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    position: relative;
+    height: 140px;
+    padding: 15px;
+    border-bottom: 10px solid rgba(255, 0, 0, 0.795);
+    line-height: 110px;
+    background-color: rgb(188, 188, 190);
+    font-size: 30px;
+}
+
+main{
+    display: block;
+    width: 100vw;
+    position: relative;
+}
+
+#dados-pessoais{
+    padding: 1em;
+    position: relative;
+}
+
+#dados-pessoais figcaption{
+    margin: 10px;
+    color: #fff;
+}
+
+.foto{
+    width: 64px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+#dados-curriculo{
+    border: 2px solid #111;
+    padding: 0.5em;
+    border-radius: 6px 3px;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #111;
+}
+
+#dados-footer{
+    border: 2px solid #111;
+    padding: 0.5em;
+    border-radius: 6px 3px;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #111;
+}
+
+.lista-curriculo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista-curriculo ul,
+.lista-curriculo ol{
+    display: inline-block;
+    margin: 15px;
+    width: 30%;
+}
